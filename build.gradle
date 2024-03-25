@@ -25,8 +25,8 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
 	implementation 'org.postgresql:postgresql'
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0'
 	implementation 'org.apache.logging.log4j:log4j-slf4j-impl:2.22.1' // Use the appropriate version
-
 }
 
 tasks.named('test') {
